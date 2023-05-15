@@ -11,7 +11,7 @@ const Todo = () => {
         const newPerson = { id: fakeId, name };
         setPeople([...people, newPerson]);
     }
-    console.log(people);
+    // console.log(people);
     return (
         <section>
             <Form addPerson={addPerson} />
